@@ -1,3 +1,4 @@
 # "Advanced Steel Property" Dataset
 The "Advanced Steel Property dataset" is relevant for a classification task and a regression task in Multi-Task Learning (MTL), where the two tasks show heterogeneity. The dataset is relevant for object classification and its regression-based property modeling. Note that the object, for classification task, occupies the entire image frame and requires no object localization via regression, while performing the two tasks. Rather regression task is intended for modeling the property of a classified object. 
+
 The dataset contains 4536 images of 224x224 pixels acquired by optical microscopy. Each image is annotated with a classification label and a regression label. More specifically, the object classes indicate different steel types, particularly their microstructures (occupying the entire image frame), while the continuous property variable is the material hardness in the present case. 
